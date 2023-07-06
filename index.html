@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Palabrero</h1>
+    <div>
+      <button onclick="setColor()">Establecer color (en inglés)</button>
+      <input type="value">
+    </div>
+    <div>
+      <button onclick="toggleUnderline()">Subrayado</button>
+      <button onclick="toggleItalic()">Cursiva</button>
+      <button onclick="toggleBold()">Negrita</button>
+      <button onclick="toggleMonospace()">Monoespacio</button>
+      <button onclick="removeFormat()">Eliminar formato</button>
+    </div>
+    <div>
+      <input id="words" style="height:100px;width:250px"
+        placeholder="escribe tu texto aqui" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
